@@ -1,4 +1,4 @@
-eitcha = ["Java","JavaScript","Python","R","AWS"];
+eitcha = ("Java","JavaScript","Python","R","AWS");
 chutes = []
 pontuacao = 0
 erros = 0;
