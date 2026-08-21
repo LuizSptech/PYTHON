@@ -25,4 +25,8 @@ for i in range(6):
         arquivo.writerow(["ram", mensagemRAM])
         arquivo.writerow(["disco", mensagemDISCO])
 
+    with open('frequencia.csv', mode='r', newline='', encoding='utf-8') as frequencia:
+        reader = csv.reader(frequencia)
     time.sleep(10)
+
+    
