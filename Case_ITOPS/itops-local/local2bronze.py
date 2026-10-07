@@ -25,7 +25,7 @@ def coletar_antena(ap_id):
         "id_antena": ap_id,
         "bytes_sent": int(net.bytes_sent * peso),
         "bytes_recv": int(net.bytes_recv * peso),
-        "active_conn": random.randint(0, 60),  # simulado
+        "active_conn": random.randint(0, 60),  
         "cpu_usage": round(random.uniform(10, 95), 1),
         "ram_usage": round(random.uniform(20, 90), 1),
     }
